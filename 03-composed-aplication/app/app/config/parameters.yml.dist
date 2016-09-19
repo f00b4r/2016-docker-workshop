@@ -1,0 +1,18 @@
+# This file defines the canonical configuration parameters of the application.
+# Symfony uses this file as a template to generate the real app/config/parameters.yml
+# used by the application.
+# See http://symfony.com/doc/current/best_practices/configuration.html#canonical-parameters
+parameters:
+    database_driver: mysqli
+    database_host: db
+    database_user: root
+    database_password: root
+    database_dbname: symfony_demo
+
+    mailer_transport:  smtp
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    locale: en
+    secret: 'secret_value_for_symfony_demo_application'

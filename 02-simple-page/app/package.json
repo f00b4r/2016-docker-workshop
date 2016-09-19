@@ -1,0 +1,25 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trainit/2016-docker-workshop.git"
+  },
+  "keywords": [
+    "docker",
+    "nodejs",
+    "javascript",
+    "spa"
+  ],
+  "author": "Milan Felix Sulc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trainit/2016-docker-workshop/issues"
+  },
+  "homepage": "https://github.com/trainit/2016-docker-workshop#readme"
+}
