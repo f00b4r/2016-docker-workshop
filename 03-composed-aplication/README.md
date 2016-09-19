@@ -18,7 +18,6 @@ chmod +x /usr/local/bin/docker-compose
 - Nginx (`nginx:1.11`)
 - MariaDB (`mariadb`)
 - Adminer (`dockette/adminer:mysql-php7`)
-```
 
 ## Manual
 

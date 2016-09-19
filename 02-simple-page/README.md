@@ -6,7 +6,7 @@
 
 ## Containers
 
-- NodeJS 6.x (`node:6-slim`)
+- NodeJS 6.x (`node:6` / `node:6-slim` / `iron/node:latest`)
 
 ## Manual
 
@@ -15,4 +15,5 @@
 3. Open browser on `http://localhost:8000` and heureka!
 
 ![](https://raw.githubusercontent.com/trainit/2016-docker-workshop/master/02-simple-page/misc/01.png "NodeJS Application!")
+
 ![](https://raw.githubusercontent.com/trainit/2016-docker-workshop/master/02-simple-page/misc/02.png "NodeJS Application!")

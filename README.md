@@ -9,6 +9,6 @@
 
 ## Authors
 
-*Milan Felix Šulc* / dev@jfx.cz
+**Milan Felix Šulc** / dev@jfx.cz
 
-*Pavel Spajx Stejskal* / <>
+**Pavel Spajx Stejskal** / <>
