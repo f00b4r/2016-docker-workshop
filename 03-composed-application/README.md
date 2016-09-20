@@ -7,6 +7,8 @@
 
 ## Installation
 
+Be sure you are a root user. Hell ya!
+
 ```sh
 curl -L https://github.com/docker/compose/releases/download/1.8.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
@@ -32,7 +34,7 @@ chmod +x /usr/local/bin/docker-compose
 	- `bin/console doctrine:fixtures:load`
 7. Open browser.
 	- `http://localhost:8000` is development version.
-	- `http://localhost:9000` is production version.
+	- `http://localhost:8001` is production version.
 	- `http://localhost:10000` occupies Adminer.
 
 
