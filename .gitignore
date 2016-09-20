@@ -1,0 +1,8 @@
+# IDE
+/.idea
+
+# 03
+/03-composed-application/data/db
+/03-composed-application/app/var/cache/
+/03-composed-application/app/var/logs/
+/03-composed-application/app/var/sessions/

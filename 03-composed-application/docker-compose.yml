@@ -8,13 +8,15 @@ services:
 
       volumes_from:
         - data
+      environment:
+        - XDEBUG_CONFI=remote_host="172.17.0.1"
 
     nginx:
       image: nginx:1.11
 
       ports:
         - 8000:8000
-        - 9000:9000
+        - 9001:9000
 
       links:
         - app
