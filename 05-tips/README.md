@@ -45,7 +45,7 @@ Useful resources:
 - http://stackoverflow.com/questions/30668090/how-can-i-debug-my-docker-container-with-phpstorm
 - http://obrown.io/2015/12/23/phpunit-docker-phpstorm.html
 
-Creates `php-in-docker.sh` and copy into following content. Don't forget to setup `chmod +x php-in-docker.sh`.
+Creates [`php-in-docker.sh`](https://github.com/trainit/2016-docker-workshop/blob/master/04-gui/php-in-docker.sh) and copy into following content. Don't forget to setup `chmod +x php-in-docker.sh`.
 
 ```
 #!/usr/bin/env bash
@@ -68,5 +68,6 @@ xdebug.remote_autostart=off
 
 Phpstorm configuration:
 
-- You have to enable listening (on port `9000` or other) in the toolbar for debugging in docker container.
+- Add `php-in-docker.sh` to your `other local PHP interpreter`. Ignore php.ini warnings.
+- You have to enable listening (on port `9000` or other) in the toolbar for every debugging in docker container.
 - You have to setup your source mapping from host to docker container.
