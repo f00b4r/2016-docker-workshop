@@ -29,9 +29,9 @@ You have a nginx/apache webserver and PHP application. PHP creates some cache an
 
 You have following 
 
-- Delete files/folders as root user. So boring and unsecure, right?
+- Delete files/folders as root user. So boring, right?
 	- `sudo rm <folder> -rf`
-- Add user to your container and start webserver by this user. Better!
+- Add user to your container and start webserver by this user. Better but unsecure!
 - Use linux ACL (]setfacl / getfacl](http://linuxcommand.org/man_pages/setfacl1.html))
 	- `setfacl -R -m "u:<user>:rwx" <folder>`
 	- `setfacl -R -m "d:u:<user>:rwx" <folder>`
