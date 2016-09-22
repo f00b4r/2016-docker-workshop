@@ -24,18 +24,21 @@ chmod +x /usr/local/bin/docker-compose
 ## Manual
 
 1. Run `docker-compose -v` to see your docker-compose version.
-2. Start connected containers with `docker-compose up`.
+2. Start connected containers with `docker-composes up`.
 3. Connect to container `docker exec -it <name> bash`.
 4. Go to folder `/srv` and update chmod of **var** folder. `chmod -R 0777 /srv/var`.
-5. Download dependencies with `composer install`.
+5. Download dependencies with `composer install`. Maybe purge `var/cache`, `var/logs`, `var/sessions`.
 6. Setup database with following commands:
 	- `bin/console doctrine:database:create`
 	- `bin/console doctrine:schema:create`
 	- `bin/console doctrine:fixtures:load`
 7. Open browser.
-	- `http://localhost:8000` is development version.
-	- `http://localhost:8001` is production version.
+	- PHP 7
+		- `http://localhost:8000` is development version.
+		- `http://localhost:8001` is production version.
+	- PHP 5.6
+		- `http://localhost:8010` is development version.
+		- `http://localhost:8011` is production version.
 	- `http://localhost:10000` occupies Adminer.
-
 
 ![](https://raw.githubusercontent.com/trainit/2016-docker-workshop/master/03-composed-application/misc/01.png "Composed Application!")
