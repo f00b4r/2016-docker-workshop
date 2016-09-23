@@ -24,7 +24,7 @@ chmod +x /usr/local/bin/docker-compose
 ## Manual
 
 1. Run `docker-compose -v` to see your docker-compose version.
-2. Start connected containers with `docker-composes up`.
+2. Start connected containers with `docker-compose up`.
 3. Connect to container `docker exec -it <name> bash`.
 4. Go to folder `/srv` and update chmod of **var** folder. `chmod -R 0777 /srv/var`.
 5. Download dependencies with `composer install`. Maybe purge `var/cache`, `var/logs`, `var/sessions`.

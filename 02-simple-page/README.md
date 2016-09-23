@@ -1,4 +1,4 @@
-# 03 - Single Page Application (SPA)
+# 02 - Single Page Application (SPA)
 
 ## Requirements
 
