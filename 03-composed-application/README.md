@@ -17,7 +17,8 @@ chmod +x /usr/local/bin/docker-compose
 ## Containers
 
 - PHP 7.x-FPM (`php:7-fpm`)
-- Nginx (`nginx:1.11`)
+- PHP 5.6.x-FPM (`php:5.6-fpm`)
+- Nginx 1.11.x (`nginx:1.11`)
 - MariaDB (`mariadb`)
 - Adminer (`dockette/adminer:mysql-php7`)
 
