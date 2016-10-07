@@ -10,7 +10,7 @@
 
 ## Hotlinks
 
-http://docker.jdem.cz (self promo)
+http://bit.ly/symfonyhk2016
 
 ## Authors
 
