@@ -32,7 +32,7 @@ You have following
 - Delete files/folders as root user. So boring, right?
 	- `sudo rm <folder> -rf`
 - Add user to your container and start webserver by this user. Better but unsecure!
-- Use linux ACL (]setfacl / getfacl](http://linuxcommand.org/man_pages/setfacl1.html))
+- Use linux ACL ([setfacl / getfacl](http://linuxcommand.org/man_pages/setfacl1.html))
 	- `setfacl -R -m "u:<user>:rwx" <folder>`
 	- `setfacl -R -m "d:u:<user>:rwx" <folder>`
 
@@ -45,7 +45,7 @@ Useful resources:
 - http://stackoverflow.com/questions/30668090/how-can-i-debug-my-docker-container-with-phpstorm
 - http://obrown.io/2015/12/23/phpunit-docker-phpstorm.html
 
-Creates [`php-in-docker.sh`](https://github.com/trainit/2016-docker-workshop/blob/master/04-gui/php-in-docker.sh) and copy into following content. Don't forget to setup `chmod +x php-in-docker.sh`.
+Creates [`php-in-docker.sh`](https://github.com/trainit/2016-docker-workshop/blob/master/05-tips/php-in-docker.sh) and copy into following content. Don't forget to setup `chmod +x php-in-docker.sh`.
 
 ```
 #!/usr/bin/env bash
